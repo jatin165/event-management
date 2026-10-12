@@ -12,12 +12,12 @@ import formatPrice from '../utils/formatPrice'
 
 // Photos shown in the gallery. All are local files, so nothing can 404.
 const GALLERY = [
-  { src: '/images/gallery/mandap.svg', alt: 'Decorated stage' },
-  { src: '/images/gallery/reception-hall.svg', alt: 'Reception hall' },
-  { src: '/images/gallery/keynote.svg', alt: 'Keynote stage' },
-  { src: '/images/gallery/conference-seating.svg', alt: 'Conference seating' },
-  { src: '/images/gallery/cake.svg', alt: 'Celebration cake' },
-  { src: '/images/gallery/stage-lights.svg', alt: 'Stage lighting' },
+  { src: '/images/real/gallery/mandap.jpg', alt: 'Decorated stage' },
+  { src: '/images/real/gallery/reception-hall.jpg', alt: 'Reception hall' },
+  { src: '/images/real/gallery/keynote.jpg', alt: 'Keynote stage' },
+  { src: '/images/real/gallery/conference-seating.jpg', alt: 'Conference seating' },
+  { src: '/images/real/gallery/cake.jpg', alt: 'Celebration cake' },
+  { src: '/images/real/gallery/stage-lights.jpg', alt: 'Stage lighting' },
 ]
 
 export default function EventDetails() {

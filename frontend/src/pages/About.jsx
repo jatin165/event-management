@@ -7,19 +7,19 @@ const TEAM = [
   {
     name: 'Meera Krishnan',
     role: 'Founder & Lead Planner',
-    image: '/images/about/team.svg',
+    image: '/images/real/about/team.jpg',
     bio: 'Fifteen years planning weddings across South India.',
   },
   {
     name: 'Arjun Mehta',
     role: 'Head of Corporate Events',
-    image: '/images/about/story.svg',
+    image: '/images/real/about/story.jpg',
     bio: 'Runs conferences and kickoffs for teams of 500 and up.',
   },
   {
     name: 'Divya Nair',
     role: 'Creative & Design Lead',
-    image: '/images/about/mission.svg',
+    image: '/images/real/about/mission.jpg',
     bio: 'Designs the decor, stage and print for every booking.',
   },
   {
@@ -79,7 +79,7 @@ export default function About() {
 
           <div className="story-media">
             <SmartImage
-              src="/images/about/story.svg"
+              src="/images/real/about/story.jpg"
               alt="Our studio"
               ratio="4 / 3"
               className="story-image"

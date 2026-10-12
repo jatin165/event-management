@@ -17,7 +17,7 @@ import formatPrice from '../utils/formatPrice'
 const SERVICES = [
   {
     title: 'Wedding Planning',
-    image: '/images/services/wedding-planning.svg',
+    image: '/images/real/services/wedding-planning.jpg',
     price: 150000,
     Icon: FiHeart,
     text: 'Mehndi, sangeet, ceremony and reception planned end to end, with vendor coordination on the day.',
@@ -25,7 +25,7 @@ const SERVICES = [
   },
   {
     title: 'Corporate Events',
-    image: '/images/services/corporate-events.svg',
+    image: '/images/real/services/corporate-events.jpg',
     price: 75000,
     Icon: FiUsers,
     text: 'Conferences, kickoffs and award nights with AV, staging and a run-sheet your team can rely on.',
@@ -33,7 +33,7 @@ const SERVICES = [
   },
   {
     title: 'Birthday Parties',
-    image: '/images/services/birthday-parties.svg',
+    image: '/images/real/services/birthday-parties.jpg',
     price: 25000,
     Icon: FiCalendar,
     text: 'Milestone birthdays and children’s parties, with themed decor, games and a cake of your choice.',
@@ -41,7 +41,7 @@ const SERVICES = [
   },
   {
     title: 'Live Music & Concerts',
-    image: '/images/services/live-music.svg',
+    image: '/images/real/services/live-music.jpg',
     price: 9999,
     Icon: FiMusic,
     text: 'Artist booking, sound and lighting for concerts, festivals and private performances.',
@@ -49,7 +49,7 @@ const SERVICES = [
   },
   {
     title: 'Catering & Decor',
-    image: '/images/services/catering-decor.svg',
+    image: '/images/real/services/catering-decor.jpg',
     price: 40000,
     Icon: FiStar,
     text: 'Menus for every budget, from buffet to plated, paired with themed decor and floral design.',
@@ -57,7 +57,7 @@ const SERVICES = [
   },
   {
     title: 'Photo & Video',
-    image: '/images/services/photo-video.svg',
+    image: '/images/real/services/photo-video.jpg',
     price: 35000,
     Icon: FiCamera,
     text: 'Candid photography, highlight films and same-day edits delivered after your event.',
