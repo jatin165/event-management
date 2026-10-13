@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FiCalendar, FiMapPin } from 'react-icons/fi'
+import { FiMapPin } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 
 import SmartImage from './SmartImage'
@@ -7,8 +7,6 @@ import formatPrice from '../utils/formatPrice'
 
 /** Shared event card used by the Events grid and the "related events" list. */
 export default function EventCard({ event, index = 0, showCategory = true }) {
-  const eventDate = new Date(event.date)
-
   return (
     <motion.article
       className="card card-hover event-card"
@@ -35,17 +33,6 @@ export default function EventCard({ event, index = 0, showCategory = true }) {
 
         <div className="event-card-body">
           <h3 className="event-card-title">{event.title}</h3>
-
-          <p className="event-card-meta">
-            <FiCalendar aria-hidden="true" />
-            <span>
-              {eventDate.toLocaleDateString('en-IN', {
-                day: 'numeric',
-                month: 'short',
-                year: 'numeric',
-              })}
-            </span>
-          </p>
 
           <p className="event-card-meta">
             <FiMapPin aria-hidden="true" />

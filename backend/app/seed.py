@@ -25,7 +25,7 @@ SEED_EVENTS = [
         "location": "The Grand Palace Hall, Mumbai",
         "price": 150000.0,
         "inclusions": "Venue hire for 3 days\nCatering for 500 guests\nFloral & stage decor\nPhotography & cinematography\nLive music and DJ",
-        "image_url": "/images/events_real/wedding-grand.jpg",
+        "image_url": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80",
     },
     {
         "title": "Beachside Destination Wedding",
@@ -38,7 +38,7 @@ SEED_EVENTS = [
         "location": "Goa Beachfront Resort",
         "price": 225000.0,
         "inclusions": "Beachfront ceremony setup\n5-star accommodation for 40 guests\nCatering & bar service\nHenna & makeup artists\nAirport transfers",
-        "image_url": "/images/events_real/wedding-beach.jpg",
+        "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=80",
     },
     {
         "title": "Traditional Sangeet Night",
@@ -51,7 +51,7 @@ SEED_EVENTS = [
         "location": "Heritage Courtyard, Jaipur",
         "price": 85000.0,
         "inclusions": "Courtyard venue hire\nTraditional decor & draping\nDhol and live music duo\nBuffet dinner for 200\nChoreography support",
-        "image_url": "/images/events_real/wedding-sangeet.jpg",
+        "image_url": "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=80",
     },
     {
         "title": "Tech Innovators Summit 2026",
@@ -64,7 +64,7 @@ SEED_EVENTS = [
         "location": "ITC Grand Bharat, Noida",
         "price": 75000.0,
         "inclusions": "Conference hall for the day\nAV and stage setup\nTwo breakaway tracks\nLunch and coffee breaks\nEvent photography",
-        "image_url": "/images/events_real/corporate-summit.jpg",
+        "image_url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
     },
     {
         "title": "Annual Sales Kickoff",
@@ -77,7 +77,7 @@ SEED_EVENTS = [
         "location": "Taj Palace Convention Centre, Bengaluru",
         "price": 110000.0,
         "inclusions": "Full-day venue hire\nAward ceremony setup\nEvening social with bar\nBranded merchandise\nPresentation equipment",
-        "image_url": "/images/events_real/corporate-kickoff.jpg",
+        "image_url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80",
     },
     {
         "title": "Milestone 50th Birthday Gala",
@@ -90,7 +90,7 @@ SEED_EVENTS = [
         "location": "The Conservatory, Bengaluru",
         "price": 25000.0,
         "inclusions": "Private dining room\nLive band for 3 hours\nFive-course dinner\nCustom celebration cake\nBalloon & photo booth decor",
-        "image_url": "/images/events_real/birthday-50th.jpg",
+        "image_url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80",
     },
     {
         "title": "Kids Garden Birthday Party",
@@ -103,7 +103,7 @@ SEED_EVENTS = [
         "location": "Botanical Gardens Lawn, Pune",
         "price": 12000.0,
         "inclusions": "Garden lawn for 3 hours\nMagic show and games\nArt and craft station\nBirthday cake\nReturn gifts for 25 kids",
-        "image_url": "/images/events_real/birthday-garden.jpg",
+        "image_url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80",
     },
     {
         "title": "Global Music Festival",
@@ -116,7 +116,7 @@ SEED_EVENTS = [
         "location": "Marine Drive Grounds, Chennai",
         "price": 9999.0,
         "inclusions": "Weekend pass for all stages\nFood and beverage stalls\nCamping zone access\nFree shuttle service\nFirst aid on site",
-        "image_url": "/images/events_real/concert-festival.jpg",
+        "image_url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
     },
     {
         "title": "Standup Comedy Night Live",
@@ -129,7 +129,7 @@ SEED_EVENTS = [
         "location": "The Basement, New Delhi",
         "price": 4500.0,
         "inclusions": "Entry to the live show\nSix comedy performances\nWelcome drink\nOpen mic participation\nStandby queue priority",
-        "image_url": "/images/events_real/concert-comedy.jpg",
+        "image_url": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&w=1200&q=80",
     },
 ]
 

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FiCalendar, FiCheck, FiMapPin, FiUsers } from 'react-icons/fi'
+import { FiCheck, FiMapPin, FiUsers } from 'react-icons/fi'
 import { Link, useParams } from 'react-router-dom'
 
 import EventCard from '../components/EventCard'
@@ -10,14 +10,14 @@ import useToast from '../components/useToast'
 import useFetch from '../hooks/useFetch'
 import formatPrice from '../utils/formatPrice'
 
-// Photos shown in the gallery. All are local files, so nothing can 404.
+// Photos shown in the gallery using authentic Indian event photos.
 const GALLERY = [
-  { src: '/images/real/gallery/mandap.jpg', alt: 'Decorated stage' },
-  { src: '/images/real/gallery/reception-hall.jpg', alt: 'Reception hall' },
-  { src: '/images/real/gallery/keynote.jpg', alt: 'Keynote stage' },
-  { src: '/images/real/gallery/conference-seating.jpg', alt: 'Conference seating' },
-  { src: '/images/real/gallery/cake.jpg', alt: 'Celebration cake' },
-  { src: '/images/real/gallery/stage-lights.jpg', alt: 'Stage lighting' },
+  { src: '/images/real-events/indian-wedding-ceremony.jpg', alt: 'Wedding ceremony mandap' },
+  { src: '/images/real-events/indian-reception-stage.jpg', alt: 'Reception stage decor' },
+  { src: '/images/real-events/indian-corporate-event.jpg', alt: 'Corporate summit' },
+  { src: '/images/real-events/mumbai-conference-room.jpg', alt: 'Conference room' },
+  { src: '/images/real-events/indian-birthday-family.jpg', alt: 'Celebration cake and gathering' },
+  { src: '/images/real-events/indian-concert-lights.jpg', alt: 'Stage lighting and effects' },
 ]
 
 export default function EventDetails() {
@@ -64,8 +64,6 @@ export default function EventDetails() {
 
   if (!event) return null
 
-  const eventDate = new Date(event.date)
-
   // The API stores inclusions one per line.
   const inclusions = (event.inclusions ?? '')
     .split('\n')
@@ -97,15 +95,6 @@ export default function EventDetails() {
           </motion.h1>
 
           <div className="detail-meta">
-            <span>
-              <FiCalendar aria-hidden="true" />
-              {eventDate.toLocaleDateString('en-IN', {
-                weekday: 'short',
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric',
-              })}
-            </span>
             <span>
               <FiMapPin aria-hidden="true" />
               {event.location}
@@ -173,16 +162,6 @@ export default function EventDetails() {
                 <li>
                   <FiUsers aria-hidden="true" />
                   <span>From 50 guests</span>
-                </li>
-                <li>
-                  <FiCalendar aria-hidden="true" />
-                  <span>
-                    {eventDate.toLocaleDateString('en-IN', {
-                      day: 'numeric',
-                      month: 'short',
-                      year: 'numeric',
-                    })}
-                  </span>
                 </li>
                 <li>
                   <FiMapPin aria-hidden="true" />

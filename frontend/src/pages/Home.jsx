@@ -62,7 +62,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-media" aria-hidden="true">
           <SmartImage
-            src="/images/real/hero/hero-main.jpg"
+            src="/images/hero/hero-main.svg"
             alt=""
             ratio="16 / 9"
             className="hero-image"
@@ -276,7 +276,7 @@ export default function Home() {
             <div className="cta-banner">
               <div className="cta-banner-media" aria-hidden="true">
                 <SmartImage
-                  src="/images/real/hero/hero-secondary.jpg"
+                  src="/images/hero/hero-secondary.svg"
                   alt=""
                   ratio="16 / 9"
                   className="cta-banner-image"

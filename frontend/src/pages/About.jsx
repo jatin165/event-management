@@ -7,25 +7,25 @@ const TEAM = [
   {
     name: 'Meera Krishnan',
     role: 'Founder & Lead Planner',
-    image: '/images/real/about/team.jpg',
+    image: '/images/real-events/indian-wedding-couple.jpg',
     bio: 'Fifteen years planning weddings across South India.',
   },
   {
     name: 'Arjun Mehta',
     role: 'Head of Corporate Events',
-    image: '/images/real/about/story.jpg',
+    image: '/images/real-events/indian-corporate-event.jpg',
     bio: 'Runs conferences and kickoffs for teams of 500 and up.',
   },
   {
     name: 'Divya Nair',
     role: 'Creative & Design Lead',
-    image: '/images/real/about/mission.jpg',
+    image: '/images/real-events/indian-reception-stage.jpg',
     bio: 'Designs the decor, stage and print for every booking.',
   },
   {
     name: 'Sameer Rao',
     role: 'Operations Manager',
-    image: '/images/gallery/keynote.svg',
+    image: '/images/real-events/mumbai-conference-room.jpg',
     bio: 'Keeps vendors, timings and logistics on schedule.',
   },
 ]
@@ -79,7 +79,7 @@ export default function About() {
 
           <div className="story-media">
             <SmartImage
-              src="/images/real/about/story.jpg"
+              src="/images/real-events/mumbai-conference-room.jpg"
               alt="Our studio"
               ratio="4 / 3"
               className="story-image"

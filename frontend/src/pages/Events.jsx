@@ -65,8 +65,7 @@ export default function Events() {
           <p className="eyebrow">Browse</p>
           <h1>Events</h1>
           <p className="page-hero-lede">
-            Every occasion we are planning right now. Filter by type or search by
-            name and venue.
+            Find a celebration you love and book with us. We’ll help make your event feel just the way you imagined it.
           </p>
         </div>
       </section>
